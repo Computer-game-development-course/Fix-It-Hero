@@ -28,5 +28,8 @@ Welcome to Fix-It-Hero, an immersive simulation and strategy game where you take
 ## Support
 For any assistance or to report bugs, please contact our support team at "alinush0zahozi@gmail.com"
 
+## The official components of the game:
+Link : https://github.com/Computer-game-development-course/Fix-It-Hero/wiki
+
 Enjoy the game and embrace the challenge of being a Maintenance Master!
 
