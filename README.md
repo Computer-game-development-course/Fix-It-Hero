@@ -1,5 +1,9 @@
 # Fix-It-Hero
 
+![image](https://github.com/Computer-game-development-course/Fix-It-Hero/assets/93255163/6f247d9d-f727-4f57-9e1d-99b4e5eab7ee)
+
+**This image is for illustration only and was created with Chat GPT
+
 ## Overview
 Welcome to Fix-It-Hero, an immersive simulation and strategy game where you take on the role of a maintenance worker in a large building. Your goal is to manage various repair and maintenance tasks, combining quick thinking, problem-solving, and time management to achieve daily objectives.
 
