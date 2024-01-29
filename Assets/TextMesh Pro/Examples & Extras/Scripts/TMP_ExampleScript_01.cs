@@ -1,12 +1,8 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
-using System.Collections;
-using TMPro;
 
 
 namespace TMPro.Examples
 {
-
     public class TMP_ExampleScript_01 : MonoBehaviour
     {
         public enum objectType { TextMeshPro = 0, TextMeshProUGUI = 1 };

@@ -1,10 +1,9 @@
 using UnityEngine;
-using System.Collections;
 
 
 namespace TMPro.Examples
 {
-    
+
     public class CameraController : MonoBehaviour
     {
         public enum CameraModes { Follow, Isometric, Free }
@@ -44,8 +43,6 @@ namespace TMPro.Examples
 
         // Controls for Touches on Mobile devices
         //private float prev_ZoomDelta;
-
-
         private const string event_SmoothingValue = "Slider - Smoothing Value";
         private const string event_FollowDistance = "Slider - Camera Zoom";
 
@@ -92,10 +89,6 @@ namespace TMPro.Examples
                 else if (CameraMode == CameraModes.Follow)
                 {
                     desiredPosition = CameraTarget.position + CameraTarget.TransformDirection(Quaternion.Euler(ElevationAngle, OrbitalAngle, 0f) * (new Vector3(0, 0, -FollowDistance)));
-                }
-                else
-                {
-                    // Free Camera implementation
                 }
 
                 if (MovementSmoothing == true)
